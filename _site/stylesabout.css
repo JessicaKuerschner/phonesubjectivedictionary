@@ -1,0 +1,266 @@
+@font-face {
+    font-family: ade;
+    src: url(Ade-Display.otf);
+}
+
+@font-face {
+    font-family: ss;
+    src: url(SourceSerifPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: sligoil;
+    src: url(ft88italic.ttf);
+}
+
+#bodymain{
+background-image: url('Artboard\ 2.jpg');
+    font-family:ss;
+    color:lightgrey;
+    font-size:18px;
+}
+
+marquee{
+    position:absolute;
+    top:10px;
+    font-size:70px;
+    font-family:sligoil;
+}
+
+#rq{
+    font-size:50px;
+    position: absolute;
+    top: 4050px;
+    left: 35px;
+    color:greenyellow;
+}
+
+#myButton{
+    position:absolute;
+    top:90px;
+    width:110px;
+    height:40px;
+    font-size:30px;
+}
+
+#one{
+    position:absolute;
+    left:250px;
+    top:150px;
+}
+
+#twoone{
+    position:absolute;
+    top:410px;
+    right:210px;
+}
+
+/*first */
+#two{
+    font-size:60px;
+    position: absolute;
+    top: 350px;
+    right:300px;
+}
+
+/*subconscious */
+#three{
+    position:absolute;
+    top:460px;
+    right:300px;
+}
+
+/*then*/
+#four{
+    font-family: sligoil;
+    font-size:80px;
+    position:absolute;
+    top:435px;
+    right: 304px;
+    color:greenyellow;
+}
+/*more and more*/
+#five{
+    position:absolute;
+    top:560px;
+    right:304px;
+}
+
+#containerimg{
+    position:absolute;
+    top:715px;
+    left:320px;
+}
+
+#seven{
+    position:absolute;
+    top:750px;
+    margin: 0px 200px;
+}
+
+#however{
+    position:absolute;
+    top:900px;
+    margin: 0px 200px;
+    color:greenyellow;
+}
+
+/*wordimage*/
+#word{
+    position:absolute;
+    left:1300px;
+    top:1440px;;
+}
+
+/*every word...*/
+#eight{
+    position:absolute;
+    top:1325px;
+    left:1300px;
+    width:42%;
+}
+
+#who{
+    font-family: sligoil;
+    position:absolute;
+    top:3310px;
+    right: 80px;
+    color:greenyellow;
+}
+
+#spacemaker{
+    position:absolute;
+    top:3310px;
+    left:2400px;
+}
+
+/*tine melzer quoute*/
+#nine{
+    font-size: 50px;
+    font-family: ss;
+    position:absolute;
+    top:3420px;
+    left:30px;
+}
+
+#ten{
+    position:absolute;
+    top:3600px;
+    left:35px;
+}
+
+#tenTwo{
+    position:absolute;
+    top:3580px;
+    left:700px;
+}
+
+#eleven{
+    position: absolute;
+    top:3820px;
+    left:35px;
+    width:1216px;
+}
+
+#twelve{
+    position:absolute;
+    top:3950px;
+    left:35px;
+    width: 1216px;
+}
+/*relationship to words*/
+#thirteen{
+    font-family:sligoil;
+    font-size:35px;
+    position:absolute;
+    top:4330px;
+    left:35px;
+    width: 1216px;
+}
+
+#fourteen{
+    position:absolute;
+    top:4440px;
+    left:35px;
+    width: 1216px;
+}
+
+#fifteen{
+    background-color: white;
+    color:#232323;
+    position:absolute;
+    top:4670px;
+    left:35px;
+    width: 1216px;
+}
+
+#sixteen{
+    font-family: sligoil;
+    position: absolute;
+    top:5800px;
+    left:35px;
+    width: 1216px;
+}
+
+#sixteenTwo{
+    position:absolute;
+    top: 5850px;
+    left: 35px;
+    width: 1216px;
+}
+
+#seventeen {
+    font-size:50px;
+    font-family:ss;
+    position:absolute;
+    top:6200px;
+    left:35px;
+    width: 1216px;
+}
+
+#eighteen {
+    position:absolute;
+    top:5900px;
+    left:35px;
+    width: 1216px;
+}
+
+#end-of-page{
+    position: absolute;
+    top: 8470px;
+    left: 35px;
+    font-size:30px;
+}
+
+#arrow{
+    position:absolute;
+    top:1200px;
+    left:900px;
+}
+
+#arrow2{
+    position:absolute;
+    top:6200px;
+    left:35px;
+}
+
+#sources{
+    position:absolute;
+    top:8500px;
+    left:35px;
+    font-family:ft88;
+}
+
+#end-button {
+    position: absolute;
+    top:6420px;
+    left:35px;
+    font-size:30px;
+}
+
+#endp{
+    position:absolute;
+    top:8600px;
+    left:35px;
+    color:blue;
+}

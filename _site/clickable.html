@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-element">
+        <input type="text" id="my-textbox">
+        <img id="my-image" src="path/to/image.jpg">
+    </div>
+    <script>
+        const myElement = document.getElementById("my-element");
+        const myImage = document.getElementById("my-image");
+        myImage.addEventListener("click", function() {
+        myElement.style.display = "none";
+        });
+    </script>
+</body>
+</html>

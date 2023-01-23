@@ -1,0 +1,67 @@
+#bodymain{
+    font-family:helvetica;
+
+}
+
+/*WORDMIDDLE*/
+/* unvisited link */
+.wordmiddle-a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+.wordmiddle-a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.wordmiddle-a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+/*NAMEWEBSITE*/
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+#myButton {
+    font-size:50px;
+    position:fixed;
+    left:540px;
+    top:368px;
+    color:black;
+}
+
+.websitename {
+    position:sticky;
+}
