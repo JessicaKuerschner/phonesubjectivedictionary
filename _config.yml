@@ -1,0 +1,11 @@
+# Site settings
+title: SUbjectiveDictionary
+email: kuerschner-jessica@web.de
+url: "https://JessicaKuerschner.github.io"
+
+# Build settings
+markdown: kramdown
+plugins: [jekyll-sass-converter]
+
+# Output settings
+permalink: https://JessicaKuerschner.github.io/SubjectiveDictionary/

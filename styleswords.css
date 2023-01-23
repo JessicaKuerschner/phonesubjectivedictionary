@@ -1,0 +1,1215 @@
+@font-face {
+    font-family: ade;
+    src: url(Ade-Display.otf);
+}
+
+@font-face {
+    font-family: ss;
+    src: url(SourceSerifPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: ft88;
+    src: url(ft88italic.ttf);
+}
+
+#bodygeneral{
+    font-family:ss;
+    background-image: url('backgroundwords.png');
+}
+
+#myButton{
+    font-size: 30px;
+}
+
+#myButtonsubmit{
+    font-size: 30px;
+}
+
+#czechchair {
+    font-family: ss;
+    background-color: #E9BED8;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#allchair {
+    font-family: ss;
+    background-color: #4CAF50;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#frenchchair {
+    font-family: ss;
+    background-color: #A086BE;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#hebrewchair {
+    font-family: ss;
+    background-color: #FFD633;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#koreanchair {
+    font-family: ss;
+    background-color: #6283B7;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#germanchair {
+    font-family: ss;
+    background-color: #CBA5A8;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#mandarinchair {
+    font-family: ss;
+    background-color: #C46DAB;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#danishchair {
+    font-family: ss;
+    background-color: #F8F4B3;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#dutchchair {
+    font-family: ss;
+    background-color: #96CE87;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#croatianchair {
+    font-family: ss;
+    background-color: #9C97CA;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+#englishchair {
+    font-family: ss;
+    background-color: #D8E148;
+    border: none;
+    text-align: left;
+    transition: bottom 0.2s;
+}
+
+.hover-text .hover-text-content {
+    display: none;
+}
+
+.hover-text:hover .hover-text-content {
+    display: inline;
+}
+
+.container {
+    position: relative;
+}
+
+.text-overlay2 {
+    color: black;
+    z-index: 1;
+}
+
+#one{
+    color:#C46DAB;
+}
+
+#text{
+    font-family: ss;
+    color:pink;
+    display:none;
+}
+
+#texttop {
+    font-family: ss;
+    color: pink;
+    display: none;
+}
+
+/*page userinputchair*/
+
+#bodyuser{
+    background-image: url('Artboard\ 3.jpg');
+}
+
+#questions{
+    font-family:ss;
+    font-size:40px;
+}
+
+#languagemother{
+    font-family:ft88;
+}
+
+#languagefluent{
+    font-family: ft88;
+}
+
+select {
+    font-size: 60px;
+    font-family: ss;
+}
+
+#headline {
+    font-family: ss;
+    font-size:40px;
+}
+
+form {
+    font-family: ss;
+    font-size: 15px;
+    color:black;
+}
+
+input{
+    font-family: ss;
+    font-size: 30px;
+    color:blue;
+}
+
+#languageTwolan{
+    color:blue;
+}
+
+#languageOnelan{
+    color:blue;
+}
+
+#formlan{
+    font-family:ft88;
+    color:black;
+}
+
+input[type="checkbox"]#vehicle1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgb(178, 177, 241);
+}
+
+input[type="checkbox"]#vehicle1:checked::before {
+    content: '\2714';
+    font-size: 120px;
+    color: blue;
+    transform: translate(-50%, -50%);
+}
+
+#languageTwo{
+    font-family:ss;
+}
+
+#owndef{
+    color:black;
+}
+
+                    /* define the styles for the hidden text */
+.hidden {
+    display: none;
+}
+
+                                        /*EMMA*/
+#hoveremma {
+    color: blue;
+}
+
+#hidden1emma {
+    background-color: transparent;
+}
+
+#hidden1emma.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+                                        /*DANIEL*/
+
+#hoverdaniel {
+    color:blue;
+}
+
+#hidden1daniel {
+    background-color: transparent;
+}
+
+#hidden1daniel.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+                                        /*LARA*/
+#hoverlara {
+    color:blue;
+}
+
+#hidden1lara {
+    background-color: transparent;
+}
+
+#hidden1lara.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+                                        /*ALINE*/
+
+#hoveraline {
+    color: blue;
+}
+
+#hidden1aline {
+    background-color: transparent;
+}
+
+#hidden1aline.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverfinn {
+    color: blue;
+}
+
+#hidden1finn {
+    background-color: transparent;
+}
+
+#hidden1finn.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverkolya {
+    color: blue;
+}
+
+#hidden1kolya {
+    background-color: transparent;
+}
+
+#hidden1kolya.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverhenry {
+    color: blue;
+}
+
+#hidden1henry {
+    background-color: transparent;
+}
+
+#hidden1henry.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovereli {
+    color: blue;
+}
+
+#hidden1eli {
+    background-color: transparent;
+}
+
+#hidden1eli.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverrichard {
+    color: blue;
+}
+
+#hidden1richard {
+    background-color: transparent;
+}
+
+#hidden1richard.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovershira {
+    color: blue;
+}
+
+#hidden1shira {
+    background-color: transparent;
+}
+
+#hidden1shira.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovertamar {
+    color:blue;
+}
+
+#hidden1tamar {
+    background-color: transparent;
+}
+
+#hidden1tamar.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermarion {
+    color: blue;
+}
+
+#hidden1marion {
+    background-color: transparent;
+}
+
+#hidden1marion.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermama {
+    color: blue;
+}
+
+#hidden1mama {
+    background-color: transparent;
+}
+
+#hidden1mama.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverpapa {
+    color: blue;
+}
+
+#hidden1papa {
+    background-color: transparent;
+}
+
+#hidden1papa.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverina {
+    color:blue;
+}
+
+#hidden1ina {
+    background-color: transparent;
+}
+
+#hidden1ina.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverjo {
+    color: blue;
+}
+
+#hidden1jo {
+    background-color: transparent;
+}
+
+#hidden1jo.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoveralexia{
+        color:blue;
+    }
+
+#hidden1alexia {
+    background-color: transparent;
+}
+
+#hidden1alexia.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermarko {
+    color: blue;
+}
+
+#hidden1marko {
+    background-color: transparent;
+}
+
+#hidden1marko.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermarie {
+    color: blue;
+}
+
+#hidden1marie {
+    background-color: transparent;
+}
+
+#hidden1marie.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverjade {
+    color: blue;
+}
+
+#hidden1jade {
+    background-color: transparent;
+}
+
+#hidden1jade.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+.slider-container {
+    display: grid;
+    grid-template-columns: 10px;
+    color: blue;
+}
+
+.slider-container input[type="range"] {
+    background-color:blue;
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    overflow: auto;
+    /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    border: solid red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+#myModal2 {
+width:700px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 900px) {
+#myButton {
+        width: 6.875em;
+        height: 2.5em;
+    }
+
+    #myButtonsubmit {
+        width: 8.125em;
+        height: 2.5em;
+    }
+
+    #myimage {
+        position: fixed;
+        top: 2.1875em;
+        left: 0em;
+    }
+
+    #czechchair {
+        height: 2.5em;
+        width: 4.0625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 60.625em;
+    }
+
+    #czechchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #allchair {
+        height: 2.5em;
+        width: 9.375em;
+        position: absolute;
+        bottom: 2.5em;
+    }
+
+    #allchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #frenchchair {
+        height: 2.5em;
+        width: 4.6875em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 50.625em;
+    }
+
+    #frenchchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #hebrewchair {
+        height: 2.5em;
+        width: 4.0625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 55.9375em;
+    }
+
+    #hebrewchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #koreanchair {
+        height: 2.5em;
+        width: 4.375em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 45.625em;
+    }
+
+    #koreanchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #germanchair {
+        height: 2.5em;
+        width: 5.625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 39.375em;
+    }
+
+    #germanchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #mandarinchair {
+        height: 2.5em;
+        width: 4.0625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 34.6875em;
+    }
+
+    #mandarinchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #danishchair {
+        height: 2.5em;
+        width: 4.0625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 30em;
+    }
+
+    #danishchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #dutchchair {
+        height: 2.5em;
+        width: 4.0625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 25.3125em;
+    }
+
+    #dutchchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #croatianchair {
+        height: 2.5em;
+        width: 4.0625em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 20.625em;
+    }
+
+    #croatianchair:hover {
+        bottom: 0.9375em;
+    }
+
+    #englishchair {
+        height: 2.5em;
+        width: 9.375em;
+        position: absolute;
+        bottom: 2.5em;
+        left: 10.625em;
+    }
+
+    #englishchair:hover {
+        bottom: 0.9375em;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .text-overlay2 {
+        position: absolute;
+        top: 3.75em;
+        left: 3.75em;
+        z-index: 1;
+    }
+
+    #text {
+        position: absolute;
+        top: 0.625em;
+        left: 0.625em;
+        width: 62.5em;
+        display: none;
+    }
+
+    #texttop {
+        position: absolute;
+        top: 0em;
+        left: 0em;
+        width: 62.5em;
+    }
+
+    #questions {
+        position: absolute;
+        top: 2.5em;
+        right: 15.625em;
+        width: 1.875em;
+    }
+
+    #languagemother {
+        position: absolute;
+        top: 50em;
+    }
+
+    #languagefluent {
+        position: absolute;
+        top: 50em;
+        left: 19.75em;
+    }
+
+    select {
+        font-size: 3.75em;
+    }
+
+    .custom-input {
+        width: 18.75em;
+        height: 18.75em;
+    }
+
+    #headline {
+        font-size: 2.5em;
+    }
+
+    input {
+        width: 18.75em;
+        height: 18.75em;
+    }
+
+    #languageTwolan {
+        position: relative;
+        left: 18.75em;
+    }
+
+    #languageOnelan {
+        position: absolute;
+        left: 0em;
+    }
+
+    #languageOne {
+        position: absolute;
+        top: 70.3125em;
+        left: 0.625em;
+    }
+
+    input[type="checkbox"]#vehicle1 {
+        width: 12.5em;
+        height: 12.5em;
+        position: relative;
+        position: absolute;
+        top: 12.5em;
+        left: 31.25em;
+    }
+
+    input[type="checkbox"]#vehicle1:checked::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #languageTwo {
+        position: absolute;
+        top: 70.3125em;
+        left: 20em;
+    }
+
+    #questiongoogle {
+        position: absolute;
+        top: 7.5em;
+        left: 31.25em;
+    }
+
+    /* define the styles for the hidden text */
+    .hidden {
+        position: absolute;
+        display: none;
+    }
+
+    /*EMMA*/
+    #hoveremma {
+        position: absolute;
+        top: 4.5em;
+        left: 45em;
+    }
+
+    /*DANIEL*/
+
+    #hoverdaniel {
+        position: absolute;
+        top: 5.1875em;
+        left: 44.375em;
+    }
+
+    /*LARA*/
+    #hoverlara {
+        position: absolute;
+        top: 7.1875em;
+        left: 44.375em;
+    }
+
+    /*ALINE*/
+
+    #hoveraline {
+        position: absolute;
+        top: 8.75em;
+        left: 45.1875em;
+    }
+
+    #hoverfinn {
+        position: absolute;
+        top: 10.625em;
+        left: 43.4375em;
+    }
+
+    #hoverkolya {
+        position: absolute;
+        top: 9.375em;
+        left: 42.625em;
+    }
+
+    #hoverhenry {
+        position: absolute;
+        top: 11.5625em;
+        left: 44.875em;
+    }
+
+    #hovereli {
+        position: absolute;
+        top: 17.5625em;
+        left: 43.125em;
+    }
+
+    #hoverrichard {
+        position: absolute;
+        top: 2.375em;
+        left: 11.875em;
+    }
+
+    #hovershira {
+        position: absolute;
+        top: 35.3125em;
+        left: 51.25em;
+    }
+
+    #hovertamar {
+        position: absolute;
+        top: 31.5625em;
+        left: 50.5em;
+    }
+
+    #hovermarion {
+        position: absolute;
+        top: 17.5em;
+        left: 43.25em;
+    }
+
+    #hovermama {
+        position: absolute;
+        top: 16.375em;
+        left: 43.75em;
+    }
+
+    #hoverpapa {
+        position: absolute;
+        top: 16.4375em;
+        left: 44.0625em;
+    }
+
+    #hoverina {
+        position: absolute;
+        top: 28.125em;
+        left: 76.875em;
+    }
+
+    #hoverjo {
+        position: absolute;
+        top: 28.125em;
+        left: 77.1875em;
+    }
+
+    #hoveralexia {
+        position: absolute;
+        top: 32.1875em;
+        left: 71.25em;
+    }
+
+    #hovermarko {
+        position: absolute;
+        top: 18.75em;
+        left: 45.3125em;
+    }
+
+    #hovermarie {
+        position: absolute;
+        top: 13.75em;
+        left: 44.1875em;
+    }
+
+    #hoverjade {
+        position: absolute;
+        top: 13.5625em;
+        left: 42.1875em
+    }
+
+    .slider {
+        position: fixed;
+        bottom: 0em;
+        right: 0em;
+    }
+
+    .slider-container {
+        display: grid;
+        grid-template-columns: 0.625em;
+        position: fixed;
+        bottom: 3.125em;
+        right: 3.125em;
+    }
+
+    .slider-container input[type="range"] {
+        width:2.5em;
+        height: 1.25em;
+    }
+
+    .slider-container input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 1.25em;
+        height: 1.25em;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+    }
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0.625em;
+        border: 0.1875em solid;
+        width: 80%;
+        box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+    }
+
+    #myModal1 {
+        top: 15.625em;
+        left: 40.625em;
+        width: 31.25em;
+    }
+
+    #myModal2 {
+        width: 43.75em;
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {
+            top: -18.75em;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes animatetop {
+        from {
+            top: -18.75em;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    /* The Close Button */
+    .close {
+        float: right;
+        font-size: 1.75em;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {
+            top: -18.75em;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes animatetop {
+        from {
+            top: -18.75em;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    /* The Close Button */
+    .close {
+        float: right;
+        font-size: 1.75em;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {
+            top: -18.75em;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes animatetop {
+        from {
+            top: -18.75px;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    /* The Close Button */
+    .close {
+        float: right;
+        font-size: 1.75em;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

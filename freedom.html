@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="freedom.css">
+</head>
+
+<body>
+
+    <body id="bodygeneral">
+        <button id="myButton">HOME</button>
+
+        <script>
+            let button = document.getElementById("myButton");
+            button.addEventListener("click", function () {
+                window.location = "index.html";
+            });
+        </script>
+
+        <div class="container">
+            <img id="myimage" src="mapfreedombluedots.png" alt="Background Image">
+            <div>
+                <span id="hovershira">.</span>
+            </div>
+            <div>
+                <span id="hovertamar">.</span>
+            </div>
+            <div>
+                <span id="hoverjo">.</span>
+            </div>
+            <div>
+                <span id="hoveraline">.</span>
+            </div>
+            <div>
+                <span id="hoverpauline">.</span>
+            </div>
+            <div>
+                <span id="hoverfinn">.</span>
+            </div>
+            <div>
+                <span id="hoverdaniel">.</span>
+            </div>
+            <div>
+                <span id="hoveremma">.</span>
+            </div>
+            <div>
+                <span id="hovermama">.</span>
+            </div>
+            <div>
+                <span id="hoverlaura">.</span>
+            </div>
+            <div>
+                <span id="hoverluigi">.</span>
+            </div>
+            <div>
+                <span id="hovermarion">.</span>
+            </div>
+
+                <div class="slider-container">
+                    <div class="slider">
+                        <input type="range" min="2022" max="2023" value="100"
+                            oninput="rangeValue.innerText = this.value">
+                    </div>
+                    <p id="rangeValue"></p>
+                </div>
+
+                <!-- Shira-->
+                <span id="hidden1shira" class="hidden">לא סופר צבעים</span>
+            </div>
+            <div>
+                <span id="hidden2shira" class="hidden">Not counting colories</span>
+            </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hovershira = document.getElementById("hovershira");
+            var hidden1shira = document.getElementById("hidden1shira");
+            var hidden2shira = document.getElementById("hidden2shira");
+
+            // Add event listener for hover
+            hovershira.addEventListener("mouseover", function () {
+                hidden1shira.style.display = "block";
+                hidden1shira.style.top = "10px";
+                hidden1shira.style.left = "20px";
+                hidden1shira.style.width = "280";
+                hidden1shira.style.height = "30px";
+                hidden1shira.classList.add("red-background");
+                hidden2shira.style.display = "block";
+                hidden2shira.style.top = "100px";
+                hidden2shira.style.left = "100px";
+                hidden2shira.classList.add("red-background");
+                hidden2shira.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1shira.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hovershira.addEventListener("mouseout", function () {
+                hidden1shira.style.display = "none";
+                hidden2shira.style.display = "none";
+            });
+        </script>
+
+        <!-- Tamar-->
+        <span id="hidden1tamar" class="hidden">כאשר יש לך הרגשה שאתה יכול לעשות כל מה שאתה רוצה ללא בעיות</span>
+        </div>
+        <div>
+            <span id="hidden2tamar" class="hidden">when you have a feeling that you can do anything you wish with no problems</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hovertamar = document.getElementById("hovertamar");
+            var hidden1tamar = document.getElementById("hidden1tamar");
+            var hidden2tamar = document.getElementById("hidden2tamar");
+
+            // Add event listener for hover
+            hovertamar.addEventListener("mouseover", function () {
+                hidden1tamar.style.display = "block";
+                hidden1tamar.style.top = "10px";
+                hidden1tamar.style.left = "20px";
+                hidden1tamar.style.width = "400px";
+                hidden1tamar.style.height = "30px";
+                hidden1tamar.classList.add("red-background");
+                hidden2tamar.style.display = "block";
+                hidden2tamar.style.top = "100px";
+                hidden2tamar.style.left = "100px";
+                hidden2tamar.classList.add("red-background");
+                hidden2tamar.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1tamar.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hovertamar.addEventListener("mouseout", function () {
+                hidden1tamar.style.display = "none";
+                hidden2tamar.style.display = "none";
+            });
+        </script>
+
+        <!-- Jo-->
+        <span id="hidden1jo" class="hidden">For me freedom is in a situation where I can control myself - things like consideration or personal capability.
+        In the case of consideration for example, if I want something in one specific situation and I can do it without
+        considering other people, that means I am free, but if I want to but can't because of others, it's the other way around.</span>
+        </div>
+        <div>
+            <span id="hidden2jo" class="hidden">나에게 자유는 배려나 개인의 능력 같은 나 자신을 통제할 수 있는 상황에 있다.
+            예를 들어 배려의 경우, 특정 상황에서 내가 원하는 것이 있고 다른 사람을 고려하지 않고 할 수 있다면 그것은 내가 자유롭다는 것을 의미하지만, 내가 하고 싶은데 다른 사람 때문에 할 수 없다면 그 반대입니다. .</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoverjo = document.getElementById("hoverjo");
+            var hidden1jo = document.getElementById("hidden1jo");
+            var hidden2jo = document.getElementById("hidden2jo");
+
+            // Add event listener for hover
+            hoverjo.addEventListener("mouseover", function () {
+                hidden1jo.style.display = "block";
+                hidden1jo.style.top = "10px";
+                hidden1jo.style.left = "20px";
+                hidden1jo.style.width = "1000px";
+                hidden1jo.style.height = "60px";
+                hidden1jo.classList.add("red-background");
+                hidden2jo.style.display = "block";
+                hidden2jo.style.top = "100px";
+                hidden2jo.style.left = "100px";
+                hidden2jo.classList.add("red-background");
+                hidden2jo.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1jo.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoverjo.addEventListener("mouseout", function () {
+                hidden1jo.style.display = "none";
+                hidden2jo.style.display = "none";
+            });
+        </script>
+        <!-- Aline-->
+        <span id="hidden1aline" class="hidden">Freiheit bedeutet für mich, keine Sicherheits- oder finanziellen Sorgen zu haben sowie seine Gedanken und seine
+        Identität frei ausdrücken zu können, ohne negative Konsequenzen befürchten zu müssen.</span>
+        </div>
+        <div>
+            <span id="hidden2aline" class="hidden">Freedom to me means having no safety or financial worries as well as being able to freely express your thoughts and your
+            identity without fearing negative consequences.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoveraline = document.getElementById("hoveraline");
+            var hidden1aline = document.getElementById("hidden1aline");
+            var hidden2aline = document.getElementById("hidden2aline");
+
+            // Add event listener for hover
+            hoveraline.addEventListener("mouseover", function () {
+                hidden1aline.style.display = "block";
+                hidden1aline.style.top = "10px";
+                hidden1aline.style.left = "20px";
+                hidden1aline.style.width = "1020px";
+                hidden1aline.style.height = "40px";
+                hidden1aline.classList.add("red-background");
+                hidden2aline.style.display = "block";
+                hidden2aline.style.top = "100px";
+                hidden2aline.style.left = "100px";
+                hidden2aline.classList.add("red-background");
+                hidden2aline.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1aline.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoveraline.addEventListener("mouseout", function () {
+                hidden1aline.style.display = "none";
+                hidden2aline.style.display = "none";
+            });
+        </script>
+
+        <!-- Pauline-->
+        <span id="hidden1pauline" class="hidden">a feeling of lightness experienced when not confronted to physical or emotional boundaries. Not being attached to
+        anything heavy or painful, being able to flow easily.</span>
+        </div>
+        <div>
+            <span id="hidden2pauline" class="hidden">un sentiment de légèreté éprouvé lorsqu'il n'est pas confronté à des limites physiques ou émotionnelles. Ne pas être
+            attaché à quelque chose de lourd ou de douloureux, être capable de couler facilement</span>
+        </div>
+        </div>
+        
+        <script>
+            // Get the elements
+            var hoverpauline = document.getElementById("hoverpauline");
+            var hidden1pauline = document.getElementById("hidden1pauline");
+            var hidden2pauline = document.getElementById("hidden2pauline");
+
+            // Add event listener for hover
+            hoverpauline.addEventListener("mouseover", function () {
+                hidden1pauline.style.display = "block";
+                hidden1pauline.style.top = "10px";
+                hidden1pauline.style.left = "20px";
+                hidden1pauline.style.width = "1000px";
+                hidden1pauline.style.height = "40px";
+                hidden1pauline.classList.add("red-background");
+                hidden2pauline.style.display = "block";
+                hidden2pauline.style.top = "100px";
+                hidden2pauline.style.left = "100px";
+                hidden2pauline.classList.add("red-background");
+                hidden2pauline.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1pauline.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoverpauline.addEventListener("mouseout", function () {
+                hidden1pauline.style.display = "none";
+                hidden2pauline.style.display = "none";
+            });
+        </script>
+
+        <!-- Finn-->
+        <span id="hidden1finn" class="hidden">Freiheit ist nie zu 100% erreichbar, trotz der Idee von Freiheit denke ich an Akzeptanz, Respekt, keine Hierarchie,
+        keine Polizei, den Planeten als einen. Keine Aufteilung in Länder und die Möglichkeit, sich voll auszudrücken.</span>
+        </div>
+        <div>
+            <span id="hidden2finn" class="hidden">Freedom is never a 100% achievable, altogh the idea of freedom I think of acceptance, respect, no hierarchy, no police,
+            the planet as one. No divisions in countries and the opportunity to express yourself fully.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoverfinn = document.getElementById("hoverfinn");
+            var hidden1finn = document.getElementById("hidden1finn");
+            var hidden2finn = document.getElementById("hidden2finn");
+
+            // Add event listener for hover
+            hoverfinn.addEventListener("mouseover", function () {
+                hidden1finn.style.display = "block";
+                hidden1finn.style.top = "10px";
+                hidden1finn.style.left = "20px";
+                hidden1finn.style.width = "980px";
+                hidden1finn.style.height = "50px";
+                hidden1finn.classList.add("red-background");
+                hidden2finn.style.display = "block";
+                hidden2finn.style.top = "100px";
+                hidden2finn.style.left = "100px";
+                hidden2finn.classList.add("red-background");
+                hidden2finn.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1finn.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoverfinn.addEventListener("mouseout", function () {
+                hidden1finn.style.display = "none";
+                hidden2finn.style.display = "none";
+            });
+        </script>
+
+        <!-- Daniel-->
+        <span id="hidden1daniel" class="hidden">I min familie er den almindelige sætning "penge køber dig ikke lykke, men de køber dig frihed", hvilket til en vis grad
+        er rigtigt. For der er mange mennesker, der bekymrer sig om økonomi, og hvis du skal arbejde hele dagen, hvordan kan du
+        så være fri i den forstand i det mindste. Så jeg tror, ​​der er noget sandhed i det. I hvert fald til en vis grad af
+        penge, hvor du ikke behøver at bekymre dig om, hvad du for eksempel skal spise. Så du kan spise hvad du vil. Jeg tror,
+        ​​at det for mig også handler om sindstilstanden. Det er lige meget, hvor mange penge du har, hvis du ikke har det godt
+        mentalt, så er det lige meget. Så bliver du aldrig fri, for du vil altid bekymre dig om noget. Og alt dette hænger
+        sammen, men det spiller en vigtig rolle i, hvordan du ser verden og dig selv, din selvopfattelse og selvkærlighed. Hvis
+        du ikke har disse ting under kontrol, så er det virkelig svært at være fri. Jeg tror, ​​du har brug for disse egenskaber
+        etableret i dig selv, for at du kan være fri.</span>
+        </div>
+        <div>
+            <span id="hidden2daniel" class="hidden">In my family the common phrase is "money doesn't buy you happiness, but it does buy you freedom", which is quite true to
+            a certain extent. Because there are a lot of people that worry about finances and if you need to work all day, then how
+            can you be free in that sense at least. So I think there is some truth for that. At least to a certain extent of money,
+            where you don't have to worry what you're gonna eat for example. So you can eat what you want. I think for me it is also
+            about the state of mind. It doesn't matter how much money you have if you're not doing well mentally, then it doesn't
+            matter. Then you will never be free, because you will always be worrying about something. And all of this is connected,
+            but it plays an important part in how you view the world and yourself, your self perception and self love. If you don't
+            have those things under control, then to be free is really hard. I think you need those qualities established within
+            yourself for you to be free.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoverdaniel = document.getElementById("hoverdaniel");
+            var hidden1daniel = document.getElementById("hidden1daniel");
+            var hidden2daniel = document.getElementById("hidden2daniel");
+
+            // Add event listener for hover
+            hoverdaniel.addEventListener("mouseover", function () {
+                hidden1daniel.style.display = "block";
+                hidden1daniel.style.top = "10px";
+                hidden1daniel.style.left = "20px";
+                hidden1daniel.style.width = "1000px";
+                hidden1daniel.style.height = "170px";
+                hidden1daniel.classList.add("red-background");
+                hidden2daniel.style.display = "block";
+                hidden2daniel.style.top = "190px";
+                hidden2daniel.style.left = "100px";
+                hidden2daniel.classList.add("red-background");
+                hidden2daniel.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1daniel.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoverdaniel.addEventListener("mouseout", function () {
+                hidden1daniel.style.display = "none";
+                hidden2daniel.style.display = "none";
+            });
+        </script>
+
+        <!-- Emma-->
+        <span id="hidden1emma" class="hidden">evnen til at udtrykke dig selv og træffe beslutninger for dig selv uden bekymring for fare eller straf. Først og
+        fremmest er frihed følelsen af ​​denne evne.</span>
+        </div>
+        <div>
+            <span id="hidden2emma" class="hidden">the ability express yourself and make decisions for yourself without the concern of danger or punishment. First and
+            foremost, freedom is the feeling of this ability.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoveremma = document.getElementById("hoveremma");
+            var hidden1emma = document.getElementById("hidden1emma");
+            var hidden2emma = document.getElementById("hidden2emma");
+
+            // Add event listener for hover
+            hoveremma.addEventListener("mouseover", function () {
+                hidden1emma.style.display = "block";
+                hidden1emma.style.top = "10px";
+                hidden1emma.style.left = "20px";
+                hidden1emma.style.width = "1000px";
+                hidden1emma.style.height = "50px";
+                hidden1emma.classList.add("red-background");
+                hidden2emma.style.display = "block";
+                hidden2emma.style.top = "100px";
+                hidden2emma.style.left = "100px";
+                hidden2emma.classList.add("red-background");
+                hidden2emma.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1emma.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoveremma.addEventListener("mouseout", function () {
+                hidden1emma.style.display = "none";
+                hidden2emma.style.display = "none";
+            });
+        </script>
+
+        <!-- Mama-->
+        <span id="hidden1mama" class="hidden">Freiheit ist für mich eines der wichtigsten Güter und sie ist ganz eng mit der Demokratie verbunden. Wenn man sie hat,
+        weiß man sie gar nicht richtig zu schätzen, erst wenn man sie verliert oder nicht hat. Was würden Menschen bspw. in
+        China, im Iran, in Nordkorea für Freiheit geben. Für Freiheit zählt für mich z. B. die Freiheit zu wählen, frei seine
+        Meinung zu äußern, die Pressefreiheit, die Religionsfreiheit, seinen Beruf frei zu wählen, seinen Partner frei zu wählen
+        und frei zu reisen.</span>
+        </div>
+        <div>
+            <span id="hidden2mama" class="hidden">For me, freedom is one of the most important goods and it is very closely linked to democracy. When you have them, you
+            don't really appreciate them until you lose them or don't have them. What would people give for freedom in China, Iran,
+            North Korea, for example. For me, freedom counts e.g. B. Freedom to choose, freedom to express one's opinion, freedom of
+            the press, freedom of religion, freedom to choose one's occupation, freedom to choose one's partner and freedom to
+            travel.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hovermama = document.getElementById("hovermama");
+            var hidden1mama = document.getElementById("hidden1mama");
+            var hidden2mama = document.getElementById("hidden2mama");
+
+            // Add event listener for hover
+            hovermama.addEventListener("mouseover", function () {
+                hidden1mama.style.display = "block";
+                hidden1mama.style.top = "10px";
+                hidden1mama.style.left = "20px";
+                hidden1mama.style.width = "1000px";
+                hidden1mama.style.height = "80px";
+                hidden1mama.classList.add("red-background");
+                hidden2mama.style.display = "block";
+                hidden2mama.style.top = "100px";
+                hidden2mama.style.left = "100px";
+                hidden2mama.classList.add("red-background");
+                hidden2mama.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1mama.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hovermama.addEventListener("mouseout", function () {
+                hidden1mama.style.display = "none";
+                hidden2mama.style.display = "none";
+            });
+        </script>
+        <!-- Laura-->
+        <span id="hidden1laura" class="hidden">Freiheit bedeutet für mich, der Intuition folgen zu können und Dinge zu tun, die sich für dich richtig anfühlen. Es
+        steht für mich auch dafür, so zu sein, wie man ist und dafür respektiert und geschätzt zu werden.</span>
+        </div>
+        <div>
+            <span id="hidden2laura" class="hidden">Freedom for me means to be able to follow the intuition and to do things that feel right for you. For me it also stands
+            for being who you are and being respected and valued for that.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoverlaura = document.getElementById("hoverlaura");
+            var hidden1laura = document.getElementById("hidden1laura");
+            var hidden2laura = document.getElementById("hidden2laura");
+
+            // Add event listener for hover
+            hoverlaura.addEventListener("mouseover", function () {
+                hidden1laura.style.display = "block";
+                hidden1laura.style.top = "10px";
+                hidden1laura.style.left = "20px";
+                hidden1laura.style.width = "900px";
+                hidden1laura.style.height = "50px";
+                hidden1laura.classList.add("red-background");
+                hidden2laura.style.display = "block";
+                hidden2laura.style.top = "100px";
+                hidden2laura.style.left = "100px";
+                hidden2laura.classList.add("red-background");
+                hidden2laura.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1laura.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoverlaura.addEventListener("mouseout", function () {
+                hidden1laura.style.display = "none";
+                hidden2laura.style.display = "none";
+            });
+        </script>
+
+        <!-- Luigi-->
+        <span id="hidden1luigi" class="hidden">Postoji jedna hrvatska izreka za to. "O lijepa, o draga, o slatka slobodo. Dar u kojem nam je sva blaga dao bog, uzrok
+        istine iz sve naše slave. Sve srebro, svo zlato, svi ljudski životi ne mogu nadmašiti cijenu čiste ljepote. " Ništa ne
+        može nadmašiti ljepotu slobode.</span>
+        </div>
+        <div>
+            <span id="hidden2luigi" class="hidden">There is this croatian saying to this. "Oh beautiful, oh dear, oh sweet freedom. A gift in which all treasures are given
+            to us by god, cause of truth from all our glory. All silver, all gold, all human lives it cant beat the price of pure
+            beauty." Nothing can beat the beauty of freedom.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hoverluigi = document.getElementById("hoverluigi");
+            var hidden1luigi = document.getElementById("hidden1luigi");
+            var hidden2luigi = document.getElementById("hidden2luigi");
+
+            // Add event listener for hover
+            hoverluigi.addEventListener("mouseover", function () {
+                hidden1luigi.style.display = "block";
+                hidden1luigi.style.top = "10px";
+                hidden1luigi.style.left = "20px";
+                hidden1luigi.style.width = "1000px";
+                hidden1luigi.style.height = "40px";
+                hidden1luigi.classList.add("red-background");
+                hidden2luigi.style.display = "block";
+                hidden2luigi.style.top = "100px";
+                hidden2luigi.style.left = "100px";
+                hidden2luigi.classList.add("red-background");
+                hidden2luigi.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1luigi.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hoverluigi.addEventListener("mouseout", function () {
+                hidden1luigi.style.display = "none";
+                hidden2luigi.style.display = "none";
+            });
+        </script>
+
+
+        <!-- Marion-->
+        <span id="hidden1marion" class="hidden">L'humanité pourrait avoir un objectif final à la fin de la vie. Et ça peut être deux choses différentes. Cela pourrait
+        être une chose qui pourrait être la liberté ou le bonheur. Mais les deux ne peuvent pas être ensemble. Quelqu'un qui est
+        libre ne peut pas être heureux. Quelqu'un qui est heureux n'est pas libre. Parce qu'être libre, de tout, être libre de
+        toutes les règles qui s'appliquent à vous, comme la société. Cela signifie que vous devez être hors de la société. Et
+        pour sortir de la société, il faut faire beaucoup de sacrifices. Donc tu ne peux pas être heureux. Pour moi, le but de
+        ma vie serait la gratuité.</span>
+        </div>
+        <div>
+            <span id="hidden2marion" class="hidden">Humanity could have an end goal at the end of life. And it could be two different things. It could be one thing which
+            could be freedom, or happiness. But the two cannot be together. Someone who is free can not be happy. Someone who is
+            happy is not free. Because to be free, from everything, being free from all the rules that apply to you, like society.
+            That means you have to be out of society. And to be out of society you have to do a lot of sacrifice. So you coulnd't be
+            happy. For me, the goal of my life would be free.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hovermarion = document.getElementById("hovermarion");
+            var hidden1marion = document.getElementById("hidden1marion");
+            var hidden2marion = document.getElementById("hidden2marion");
+
+            // Add event listener for hover
+            hovermarion.addEventListener("mouseover", function () {
+                hidden1marion.style.display = "block";
+                hidden1marion.style.top = "10px";
+                hidden1marion.style.left = "20px";
+                hidden1marion.style.width = "1000px";
+                hidden1marion.style.height = "120px";
+                hidden1marion.classList.add("red-background");
+                hidden2marion.style.display = "block";
+                hidden2marion.style.top = "150px";
+                hidden2marion.style.left = "100px";
+                hidden2marion.classList.add("red-background");
+                hidden2marion.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1marion.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hovermarion.addEventListener("mouseout", function () {
+                hidden1marion.style.display = "none";
+                hidden2marion.style.display = "none";
+            });
+        </script>
+
+        <!-- Mama-->
+        <span id="hidden1mama" class="hidden">Freiheit ist für mich eines der wichtigsten Güter und sie ist ganz eng mit der Demokratie verbunden. Wenn man sie hat,
+        weiß man sie gar nicht richtig zu schätzen, erst wenn man sie verliert oder nicht hat. Was würden Menschen bspw. in
+        China, im Iran, in Nordkorea für Freiheit geben. Für Freiheit zählt für mich z. B. die Freiheit zu wählen, frei seine
+        Meinung zu äußern, die Pressefreiheit, die Religionsfreiheit, seinen Beruf frei zu wählen, seinen Partner frei zu wählen
+        und frei zu reisen.</span>
+        </div>
+        <div>
+            <span id="hidden2mama" class="hidden">For me, freedom is one of the most important goods and it is very closely linked to democracy. When you have them, you
+            don't really appreciate them until you lose them or don't have them. What would people give for freedom in China, Iran,
+            North Korea, for example. For me, freedom counts e.g. B. Freedom to choose, freedom to express one's opinion, freedom of
+            the press, freedom of religion, freedom to choose one's occupation, freedom to choose one's partner and freedom to
+            travel.</span>
+        </div>
+        </div>
+
+        <script>
+            // Get the elements
+            var hovermama = document.getElementById("hovermama");
+            var hidden1mama = document.getElementById("hidden1mama");
+            var hidden2mama = document.getElementById("hidden2mama");
+
+            // Add event listener for hover
+            hovermama.addEventListener("mouseover", function () {
+                hidden1mama.style.display = "block";
+                hidden1mama.style.top = "10px";
+                hidden1mama.style.left = "20px";
+                hidden1mama.style.width = "1000px";
+                hidden1mama.style.height = "80px";
+                hidden1mama.classList.add("red-background");
+                hidden2mama.style.display = "block";
+                hidden2mama.style.top = "100px";
+                hidden2mama.style.left = "100px";
+                hidden2mama.classList.add("red-background");
+                hidden2mama.style.textShadow = "-1px -1px 0 #f9c0e6, 1px -1px 0 #f9c0e6, -1px 1px 0 #fff, 1px 1px 0 #fff";
+                hidden1mama.style.paddingLeft = "15px";
+            });
+
+            // Add event listener for mouse out
+            hovermama.addEventListener("mouseout", function () {
+                hidden1mama.style.display = "none";
+                hidden2mama.style.display = "none";
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            var newText = document.getElementById("texttop");
+            var anotherSentence = document.getElementById("top-text");
+            var hoverTarget = document.getElementById("hover-target");
+            hoverTarget.onmouseover = function () {
+                newText.style.visibility = "visible";
+                anotherSentence.style.visibility = "visible";
+            }
+            hoverTarget.onmouseout = function () {
+                newText.style.visibility = "hidden";
+                anotherSentence.style.visibility = "hidden";
+            }
+        </script>
+
+
+        <button class="hover-text" id="allchair" onclick="changeImageAll()">
+            <span class="hover-text-content">All</span></button>
+        <script>
+            function changeImageAll() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomall.png";
+                } else {
+                    image.src = "mapfreedomall.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="englishchair" onclick="changeImageEnglish()">
+            <span class="hover-text-content">English</span></button>
+        <script>
+            function changeImageEnglish() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomenglish.png";
+                } else {
+                    image.src = "mapfreedomenglish.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="frenchchair" onclick="changeImageFrench()">
+            <span class="hover-text-content">French</span></button>
+        <script>
+            function changeImageFrench() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomfrench.png";
+                } else {
+                    image.src = "mapfreedomfrench.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="hebrewchair" onclick="changeImageHebrew()">
+            <span class="hover-text-content">Hebrew</span></button>
+        <script>
+            function changeImageHebrew() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomhebrew.png";
+                } else {
+                    image.src = "mapfreedomhebrew.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="koreanchair" onclick="changeImageKorean()">
+            <span class="hover-text-content">Korean</span></button>
+        <script>
+            function changeImageKorean() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomkorean.png";
+                } else {
+                    image.src = "mapfreedomkorean.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="germanchair" onclick="changeImageGerman()">
+            <span class="hover-text-content">German</span></button>
+        <script>
+            function changeImageGerman() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomgerman.png";
+                } else {
+                    image.src = "mapfreedomgerman.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="danishchair" onclick="changeImageDanish()">
+            <span class="hover-text-content">Danish</span></button>
+        <script>
+            function changeImageDanish() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomdenmark.png";
+                } else {
+                    image.src = "mapfreedomdenmark.png";
+                }
+            }
+        </script>
+
+        <button class="hover-text" id="croatianchair" onclick="changeImageCroatian()">
+            <span class="hover-text-content">Croatian</span></button>
+        <script>
+            function changeImageCroatian() {
+                var image = document.getElementById("myimage");
+                if (image.src.match("myimage")) {
+                    image.src = "mapfreedomcroatian.png";
+                } else {
+                    image.src = "mapfreedomcroatian.png";
+                }
+            }
+        </script>
+
+    </body>
+
+</html>

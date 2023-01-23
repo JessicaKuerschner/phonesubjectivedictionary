@@ -1,0 +1,749 @@
+@font-face {
+    font-family: ade;
+    src: url(Ade-Display.otf);
+}
+
+@font-face {
+    font-family: ss;
+    src: url(SourceSerifPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: ft88;
+    src: url(ft88italic.ttf);
+}
+
+#bodygeneral {
+    font-family: ss;
+    background-image: url('backgroundwords.png');
+}
+
+#myButton {
+    width: 110px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#myButtonsubmit {
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#myimage {
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    width:90%
+}
+
+#czechchair {
+    font-family: ss;
+    background-color: #E9BED8;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    bottom: 40px;
+    left: 970px;
+    transition: bottom 0.2s;
+}
+
+#czechchair:hover {
+    bottom: 15px;
+}
+
+#allchair {
+    font-family: ss;
+    background-color: #4CAF50;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    bottom: 40px;
+    transition: bottom 0.2s;
+}
+
+#allchair:hover {
+    bottom: 15px;
+}
+
+#frenchchair {
+    font-family: ss;
+    background-color: #A086BE;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    bottom: 40px;
+    left: 615px;
+    transition: bottom 0.2s;
+}
+
+#frenchchair:hover {
+    bottom: 15px;
+}
+
+#hebrewchair {
+    font-family: ss;
+    background-color: #FFD633;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    bottom: 40px;
+    left: 695px;
+    transition: bottom 0.2s;
+}
+
+#hebrewchair:hover {
+    bottom: 15px;
+}
+
+#koreanchair {
+    font-family: ss;
+    background-color: #6283B7;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    bottom: 40px;
+    left: 540px;
+    transition: bottom 0.2s;
+}
+
+#koreanchair:hover {
+    bottom: 15px;
+}
+
+#germanchair {
+    font-family: ss;
+    background-color: #CBA5A8;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 450px;
+    transition: bottom 0.2s;
+}
+
+#germanchair:hover {
+    bottom: 15px;
+}
+
+#mandarinchair {
+    font-family: ss;
+    background-color: #C46DAB;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    bottom: 40px;
+    left: 555px;
+    transition: bottom 0.2s;
+}
+
+#mandarinchair:hover {
+    bottom: 15px;
+}
+
+#danishchair {
+    font-family: ss;
+    background-color: #F8F4B3;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    bottom: 40px;
+    left: 375px;
+    transition: bottom 0.2s;
+}
+
+#danishchair:hover {
+    bottom: 15px;
+}
+
+#dutchchair {
+    font-family: ss;
+    background-color: #96CE87;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    bottom: 40px;
+    left: 405px;
+    transition: bottom 0.2s;
+}
+
+#dutchchair:hover {
+    bottom: 15px;
+}
+
+#croatianchair {
+    font-family: ss;
+    background-color: #9C97CA;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+    transition: bottom 0.2s;
+}
+
+#croatianchair:hover {
+    bottom: 15px;
+}
+
+#englishchair {
+    font-family: ss;
+    background-color: #D8E148;
+    border: none;
+    text-align: left;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    bottom: 40px;
+    left: 170px;
+    transition: bottom 0.2s;
+}
+
+#englishchair:hover {
+    bottom: 15px;
+}
+
+.hover-text .hover-text-content {
+    display: none;
+}
+
+.hover-text:hover .hover-text-content {
+    display: inline;
+}
+
+.container {
+    position: relative;
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    color: black;
+    z-index: 1;
+}
+
+#one {
+    color: #C46DAB;
+}
+
+#text {
+    font-family: ss;
+    color: pink;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 1000px;
+    display: none;
+}
+
+#texttop {
+    font-family: ss;
+    color: pink;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    display: none;
+}
+
+/*page userinputchair*/
+
+#bodyuser {
+    background-image: url('Artboard\ 3.jpg');
+}
+
+#questions {
+    font-family: ss;
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    right: 250px;
+    width: 30px;
+}
+
+#languagemother {
+    position: absolute;
+    top: 800px;
+    font-family: ft88;
+}
+
+#languagefluent {
+    position: absolute;
+    top: 800px;
+    left: 316px;
+    font-family: ft88;
+}
+
+select {
+    font-size: 60px;
+    font-family: ss;
+}
+
+.custom-input {
+    width: 300px;
+    height: 300px;
+}
+
+#headline {
+    font-family: ss;
+    font-size: 40px;
+}
+
+form {
+    font-family: ss;
+    font-size: 15px;
+    color: black;
+}
+
+input {
+    font-family: ss;
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    color: blue;
+}
+
+#languageTwolan {
+    color: blue;
+    position: relative;
+    left: 300px;
+}
+
+#languageOnelan {
+    color: blue;
+    position: absolute;
+    left: 0px;
+}
+
+#languageOne {
+    position: absolute;
+    top: 1125px;
+    left: 10px;
+}
+
+#formlan {
+    font-family: ft88;
+    color: black;
+}
+
+input[type="checkbox"]#vehicle1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(178, 177, 241);
+    position: relative;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+input[type="checkbox"]#vehicle1:checked::before {
+    content: '\2714';
+    font-size: 120px;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#languageTwo {
+    position: absolute;
+    top: 1125px;
+    left: 320px;
+    font-family: ss;
+}
+
+#owndef {
+    color: black;
+}
+
+#questiongoogle {
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+
+/* define the styles for the hidden text */
+.hidden {
+    position: absolute;
+    display: none;
+}
+
+/*EMMA*/
+#hoveremma {
+    color: blue;
+    position: absolute;
+    top: 72px;
+    left: 146px;
+}
+
+#hidden1emma {
+    background-color: transparent;
+}
+
+#hidden1emma.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+/*DANIEL*/
+
+#hoverdaniel {
+    color: blue;
+    position: absolute;
+    top: 82px;
+    left: 127px;
+}
+
+#hidden1daniel {
+    background-color: transparent;
+}
+
+#hidden1daniel.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+/*LARA*/
+#hoverlara {
+    color: red;
+    position: absolute;
+    top: 138px;
+    left: 710px;
+}
+
+#hidden1lara {
+    background-color: transparent;
+}
+
+#hidden1lara.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+/*ALINE*/
+
+#hoveraline {
+    color: blue;
+    position: absolute;
+    top: 135px;
+    left: 154px;
+}
+
+#hidden1aline {
+    background-color: transparent;
+}
+
+#hidden1aline.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverfinn {
+    color: blue;
+    position: absolute;
+    top: 167px;
+    left: 98px;
+}
+
+#hidden1finn {
+    background-color: transparent;
+}
+
+#hidden1finn.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverlaura {
+    color: blue;
+    position: absolute;
+    top: 220px;
+    left: 135px;
+}
+
+#hidden1laura {
+    background-color: transparent;
+}
+
+#hidden1laura.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverluigi {
+    color: blue;
+    position: absolute;
+    top: 279px;
+    left: 156px;
+}
+
+#hidden1luigi {
+    background-color: transparent;
+}
+
+#hidden1luigi.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverhenry {
+    color: red;
+    position: absolute;
+    top: 206px;
+    left: 720px;
+}
+
+#hidden1henry {
+    background-color: transparent;
+}
+
+#hidden1henry.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovereli {
+    color: red;
+    position: absolute;
+    top: 290px;
+    left: 690px;
+}
+
+#hidden1eli {
+    background-color: transparent;
+}
+
+#hidden1eli.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverpauline {
+    color:blue;
+    position: absolute;
+    top: 310px;
+    left: 100px;
+}
+
+#hidden1pauline {
+    background-color: transparent;
+}
+
+#hidden1pauline.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovershira {
+    color: blue;
+    position: absolute;
+    top: 540px;
+    left: 347px;
+}
+
+#hidden1shira {
+    background-color: transparent;
+}
+
+#hidden1shira.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovertamar {
+    color: blue;
+    position: absolute;
+    top: 535px;
+    left: 347px;
+}
+
+#hidden1tamar {
+    background-color: transparent;
+}
+
+#hidden1tamar.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermarion {
+    color:blue;
+    position: absolute;
+    top: 262px;
+    left: 87px;
+}
+
+#hidden1marion {
+    background-color: transparent;
+}
+
+#hidden1marion.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermama {
+    color: blue;
+    position: absolute;
+    top: 250px;
+    left: 112px;
+}
+
+#hidden1mama {
+    background-color: transparent;
+}
+
+#hidden1mama.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverpapa {
+    color: red;
+    position: absolute;
+    top: 285px;
+    left: 705px;
+}
+
+#hidden1papa {
+    background-color: transparent;
+}
+
+#hidden1papa.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverina {
+    color: red;
+    position: absolute;
+    top: 470px;
+    left: 1230px;
+}
+
+#hidden1ina {
+    background-color: transparent;
+}
+
+#hidden1ina.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverjo {
+    color: blue;
+    position: absolute;
+    top: 428px;
+    left: 1173px;
+}
+
+#hidden1jo {
+    background-color: transparent;
+}
+
+#hidden1jo.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoveralexia {
+    color: red;
+    position: absolute;
+    top: 540px;
+    left: 1140px;
+}
+
+#hidden1alexia {
+    background-color: transparent;
+}
+
+#hidden1alexia.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermarko {
+    color: red;
+    position: absolute;
+    top: 315px;
+    left: 725px;
+}
+
+#hidden1marko {
+    background-color: transparent;
+}
+
+#hidden1marko.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hovermarie {
+    color: red;
+    position: absolute;
+    top: 240px;
+    left: 707px;
+}
+
+#hidden1marie {
+    background-color: transparent;
+}
+
+#hidden1marie.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+#hoverjade {
+    color: red;
+    position: absolute;
+    top: 237px;
+    left: 675px;
+}
+
+#hidden1jade {
+    background-color: transparent;
+}
+
+#hidden1jade.red-background {
+    background-color: rgb(229, 255, 0);
+}
+
+.slider {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.slider-container {
+    display: grid;
+    grid-template-columns: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: blue;
+    font-family:ss;
+}
+
+.slider-container input[type="range"] {
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+    font-family:ss;
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family:ss;
+}

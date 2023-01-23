@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleswords.css">
+</head>
+<body id="bodyuser">
+    <p id="headline">What is your subjective definition to CHAIR?</p>
+    <button id="myButtonsubmit">SUBMIT</button>
+    <p id="questions">What does this 
+        <br>word mean to  
+        <br>YOU? What comes 
+        <br>to your head when 
+        <br>thinking about it? 
+        <br>What do you associate 
+        <br>with it?</p>
+    <script>
+        let button = document.getElementById("myButtonsubmit");
+        button.addEventListener("click", function () {
+            window.location = "chair.html";
+        });
+    </script>
+
+    <form id="formlan" action="/action_page.php">
+        <label for="owndef">In your own language</label>
+        <input type="text" class="custom-imput"><br><br>
+        <label for="englishdef">In English</label>
+        <input type="text" class="custom-imput">
+    <p id="questiongoogle">Or let it be translated by Google Translate:</p>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1">translate here</label><br>
+<br>
+<br>
+<br>
+<p id="languagemother">What is your mother tongue?</p>
+<p id="languagefluent">What other language are you fluent/ relatively confident in?</p>
+    <select id="languageOnelan" size="42" name="LanguageOne" id="LanguageOne">
+        <option value="AbanyomOne">Abanyom</option>
+        <option value="AbazaOne">Abaza</option>
+        <option value="AbkhazOne">Abkhaz</option>
+        <option value="adygheOne">Adyghe</option>
+        <option value="afarOne">Afar</option>
+        <option value="afrikaansOne">Afrikaans</option>
+        <option value="AinuOne">Ainu</option>
+        <option value="AkanOne">Akan</option>
+        <option value="albanianOne">Albanian</option>
+        <option value="AleutOne">Aleut</option>
+        <option value="AlsatianOne">Alsatain</option>
+        <option value="AltayOne">Altay</option>
+        <option value="amharicOne">Amharic</option>
+        <option value="AncientManipuriOne">Ancient Manipuri</option>
+        <option value="arabicOne">Arabic</option>
+        <option value="AragoneseOne">Aragonese</option>
+        <option value="AramaicOne">Aramaic</option>
+        <option value="AromanianOne">Aromanian</option>
+        <option value="ArmenianOne">Armenian</option>
+        <option value="AssameseOne">Assamese</option>
+        <option value="asturianOne">Asturian</option>
+        <option value="austrobavarianOne">Austro-Bavarian</option>
+        <option value="avarOne">Avar</option>
+        <option value="awadhiOne">Awadhi</option>
+        <option value="aymaraOne">Aymara</option>
+        <option value="AzerbaijaniOne">Azerbaijani</option>
+        <option value="azerbaijaniOne">Azerbaijani</option>
+        <option value="bengaliOne">Bengali</option>
+        <option value="bosnianOne">Bosnian</option>
+        <option value="catalanOne">Catalan</option>
+        <option value="czechOne">Czech</option>
+        <option value="croatianOne">Croatian</option>
+        <option value="cantoneseOne">Cantonese</option>
+        <option value="danishOne">Danish</option>
+        <option value="egyptianOne">Egyptian</option>
+        <option value="englishOne">English</option>
+        <option value="estonianOne">Estonian</option>
+        <option value="frenchOne">French</option>
+        <option value="faroneseOne">Faroese</option>
+        <option value="germanOne">German</option>
+        <option value="hindiOne">Hindi</option>
+        <option value="hungarianOne">Hungarian</option>
+        <option value="hebrewOne">Hebrew</option>
+        <option value="icelandicOne">Icelandic</option>
+        <option value="italianOne">Italian</option>
+        <option value="indonesianOne">Indonesian</option>
+        <option value="japaneseOne">Japanese</option>
+        <option value="koreanOne">Korean</option>
+        <option value="latvianOne">Latvian</option>
+        <option value="mandarinOne">Mandarin</option>
+        <option value="marathiOne">Marathi</option>
+        <option value="nepaliOne">Nepali</option>
+        <option value="odiaOne">Odia</option>
+        <option value="portugeseOne">Portugese</option>
+        <option value="quechuaOne">Quechua</option>
+        <option value="russianOne">Russian</option>
+        <option value="serbianOne">Serbian</option>
+        <option value="spanishOne">Spanish</option>
+        <option value="tabasaranOne">Tabasaran</option>
+        <option value="tachelhitOne">Tachelhit</option>
+        <option value="tagalogOne">Tagalog</option>
+        <option value="tahitianOne">Tahitian</option>
+        <option value="tajikOne">Tajik</option>
+        <option value="tamilOne">Tamil</option>
+        <option value="tarifitOne">Tarifit</option>
+        <option value="tatarOne">Tatar</option>
+        <option value="teluguOne">Telugu</option>
+        <option value="tetumOne">Tetum</option>
+        <option value="thaiOne">Thai</option>
+        <option value="tibetanOne">Tibetan</option>
+        <option value="tigrinyaOne">Tigrinya</option>
+        <option value="tokelauanOne">Tokelauan</option>
+        <option value="tonganOne">Tongan</option>
+        <option value="torwaliOne">Torwali</option>
+        <option value="tsezOne">Tsez</option>
+        <option value="tsongaOne">Tsonga</option>
+        <option value="tswanaOne">Tswana</option>
+        <option value="TuluOne">Tulu</option>
+        <option value="turkishOne">Turkish</option>
+        <option value="turkmenOne">Turkmen</option>
+        <option value="tuvaluanOne">Tuvaluan</option>
+        <option value="ukrainianOne">Ukrainian</option>
+        <option value="uppersorbianOne">Upper Sorbian</option>
+        <option value="urduOne">Urdu</option>
+        <option value="uyghurOne">Uyghur</option>
+        <option value="uzbekOne">Uzbek</option>
+        <option value="valencianOne">Valencian</option>
+        <option value="VendaOne">Venda</option>
+        <option value="venetianOne">Venetian</option>
+        <option value="vietnameseOne">Vietnamese</option>
+        <option value="waigaliOne">Waigali</option>
+        <option value="wakhiOne">Wakhi</option>
+        <option value="WalloonOne">walloon</option>
+        <option value="waraywarayOne">Waray-Waray</option>
+        <option value="welshOne">Welsh</option>
+        <option value="xhosaOne">Xhosa</option>
+        <option value="xipayaOne">Xipaya</option>
+        <option value="yaeyamaOne">Yaeyama</option>
+        <option value="yanomamiOne">Yanomami</option>
+        <option value="yiddishOne">Yiddish</option>
+        <option value="yidghaOne">Yidgha</option>
+        <option value="yorubaOne">Yorùbá</option>
+        <option value="zazakiOne">Zazaki</option>
+        <option value="zuluOne">Zulu</option>
+        <option value="zuniOne">Zuni</option>
+    </select>
+    </form>
+    <label id="languageTwo" for="languageTwo">What other language are you fluent in?</label>
+    <select id="languageTwolan" size="42" name="LanguageTwo" id="LanguageTwo">
+        <option value="AbanyomOne">Abanyom</option>
+        <option value="AbazaOne">Abaza</option>
+        <option value="AbkhazOne">Abkhaz</option>
+        <option value="adygheOne">Adyghe</option>
+        <option value="afarOne">Afar</option>
+        <option value="afrikaansOne">Afrikaans</option>
+        <option value="AinuOne">Ainu</option>
+        <option value="AkanOne">Akan</option>
+        <option value="albanianOne">Albanian</option>
+        <option value="AleutOne">Aleut</option>
+        <option value="AlsatianOne">Alsatain</option>
+        <option value="AltayOne">Altay</option>
+        <option value="amharicOne">Amharic</option>
+        <option value="AncientManipuriOne">Ancient Manipuri</option>
+        <option value="arabicOne">Arabic</option>
+        <option value="AragoneseOne">Aragonese</option>
+        <option value="AramaicOne">Aramaic</option>
+        <option value="AromanianOne">Aromanian</option>
+        <option value="ArmenianOne">Armenian</option>
+        <option value="AssameseOne">Assamese</option>
+        <option value="asturianOne">Asturian</option>
+        <option value="austrobavarianOne">Austro-Bavarian</option>
+        <option value="avarOne">Avar</option>
+        <option value="awadhiOne">Awadhi</option>
+        <option value="aymaraOne">Aymara</option>
+        <option value="AzerbaijaniOne">Azerbaijani</option>
+        <option value="azerbaijaniOne">Azerbaijani</option>
+        <option value="bengaliOne">Bengali</option>
+        <option value="bosnianOne">Bosnian</option>
+        <option value="catalanOne">Catalan</option>
+        <option value="czechOne">Czech</option>
+        <option value="croatianOne">Croatian</option>
+        <option value="cantoneseOne">Cantonese</option>
+        <option value="danishOne">Danish</option>
+        <option value="egyptianOne">Egyptian</option>
+        <option value="englishOne">English</option>
+        <option value="estonianOne">Estonian</option>
+        <option value="frenchOne">French</option>
+        <option value="faroneseOne">Faroese</option>
+        <option value="germanOne">German</option>
+        <option value="hindiOne">Hindi</option>
+        <option value="hungarianOne">Hungarian</option>
+        <option value="hebrewOne">Hebrew</option>
+        <option value="icelandicOne">Icelandic</option>
+        <option value="italianOne">Italian</option>
+        <option value="indonesianOne">Indonesian</option>
+        <option value="japaneseOne">Japanese</option>
+        <option value="koreanOne">Korean</option>
+        <option value="latvianOne">Latvian</option>
+        <option value="mandarinOne">Mandarin</option>
+        <option value="marathiOne">Marathi</option>
+        <option value="nepaliOne">Nepali</option>
+        <option value="odiaOne">Odia</option>
+        <option value="portugeseOne">Portugese</option>
+        <option value="quechuaOne">Quechua</option>
+        <option value="russianOne">Russian</option>
+        <option value="serbianOne">Serbian</option>
+        <option value="spanishOne">Spanish</option>
+        <option value="tabasaranOne">Tabasaran</option>
+        <option value="tachelhitOne">Tachelhit</option>
+        <option value="tagalogOne">Tagalog</option>
+        <option value="tahitianOne">Tahitian</option>
+        <option value="tajikOne">Tajik</option>
+        <option value="tamilOne">Tamil</option>
+        <option value="tarifitOne">Tarifit</option>
+        <option value="tatarOne">Tatar</option>
+        <option value="teluguOne">Telugu</option>
+        <option value="tetumOne">Tetum</option>
+        <option value="thaiOne">Thai</option>
+        <option value="tibetanOne">Tibetan</option>
+        <option value="tigrinyaOne">Tigrinya</option>
+        <option value="tokelauanOne">Tokelauan</option>
+        <option value="tonganOne">Tongan</option>
+        <option value="torwaliOne">Torwali</option>
+        <option value="tsezOne">Tsez</option>
+        <option value="tsongaOne">Tsonga</option>
+        <option value="tswanaOne">Tswana</option>
+        <option value="TuluOne">Tulu</option>
+        <option value="turkishOne">Turkish</option>
+        <option value="turkmenOne">Turkmen</option>
+        <option value="tuvaluanOne">Tuvaluan</option>
+        <option value="ukrainianOne">Ukrainian</option>
+        <option value="uppersorbianOne">Upper Sorbian</option>
+        <option value="urduOne">Urdu</option>
+        <option value="uyghurOne">Uyghur</option>
+        <option value="uzbekOne">Uzbek</option>
+        <option value="valencianOne">Valencian</option>
+        <option value="VendaOne">Venda</option>
+        <option value="venetianOne">Venetian</option>
+        <option value="vietnameseOne">Vietnamese</option>
+        <option value="waigaliOne">Waigali</option>
+        <option value="wakhiOne">Wakhi</option>
+        <option value="WalloonOne">walloon</option>
+        <option value="waraywarayOne">Waray-Waray</option>
+        <option value="welshOne">Welsh</option>
+        <option value="xhosaOne">Xhosa</option>
+        <option value="xipayaOne">Xipaya</option>
+        <option value="yaeyamaOne">Yaeyama</option>
+        <option value="yanomamiOne">Yanomami</option>
+        <option value="yiddishOne">Yiddish</option>
+        <option value="yidghaOne">Yidgha</option>
+        <option value="yorubaOne">Yorùbá</option>
+        <option value="zazakiOne">Zazaki</option>
+        <option value="zuluOne">Zulu</option>
+        <option value="zuniOne">Zuni</option>
+    </select>
+    </form>
+</body>
+</html>

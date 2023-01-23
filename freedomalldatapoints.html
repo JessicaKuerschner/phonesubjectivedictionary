@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
+<body>
+    <canvas id="myChart"></canvas>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bubble',
+            data: {
+                labels: ["Point 1", "Point 2", "Point 3"],
+                datasets: [{
+                    label: 'Latitude vs Longitude',
+                    data: [{
+                        x: 34.713886,
+                        y: 31.743848,
+                        r: 5
+                    }, {
+                        x: 34.78727,
+                        y: 32.089305,
+                        r: 5
+                    }, {
+                        x: 127.028998,
+                        y: 37.567704,
+                        r: 5
+                    }, {
+                        x: 13.440199,
+                        y: 52.522653,
+                        r: 5
+                    }, {
+                        x: 7.23152,
+                        y: 43.711548,
+                        r: 5
+                    }, {
+                        x: 6.897571,
+                        y: 50.977358,
+                        r: 5,
+                    }, {
+                        x: 10.421206,
+                        y: 55.207136,
+                        r: 10,
+                    },
+                    ],
+                    backgroundColor: 'blue'
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        type: 'linear',
+                        position: 'bottom',
+                        scaleLabel: {
+                            display: false,
+                            labelString: 'Latitude'
+                        },
+                        gridLines: {
+                            display: false,
+                            color: 'rgba(0, 0, 0, 0.1)',
+                            zeroLineColor: 'rgba(0, 0, 0, 0.25)'
+                        }
+                    }],
+                    yAxes: [{
+                        type: 'linear',
+                        scaleLabel: {
+                            display: false,
+                            labelString: 'Longitude'
+                        },
+                        gridLines: {
+                            display: false,
+                            color: 'rgba(0, 0, 0, 0.1)',
+                            zeroLineColor: 'rgba(0, 0, 0, 0.25)'
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

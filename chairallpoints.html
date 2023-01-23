@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
+<body>
+    <canvas id="myChart"></canvas>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bubble',
+            data: {
+                labels: ["Point 1", "Point 2", "Point 3"],
+                datasets: [{
+                    label: 'Latitude vs Longitude',
+                    data: [{
+                        x: 6.897571,
+                        y: 50.977358,
+                        r: 5
+                    }, {
+                        x: 10.421206,
+                        y: 55.207136,
+                        r: 5
+                    }, {
+                        x: 9.985712,
+                        y: 53.576053,
+                        r: 5
+                    }, {
+                        x: 13.440199,
+                        y: 52.522653,
+                        r: 5,
+                    }, {
+                        x: 11.797832,
+                        y: 50.293183,
+                        r: 5
+                    }, {
+                        x: 5.683674,
+                        y: 45.960202,
+                        r: 5,
+                    }, {
+                        x: 13.856112,
+                        y: 44.870812,
+                        r: 5,
+                    }, {
+                        x: -106.283203,
+                        y: 57.304354,
+                        r: 5,
+                    }, {
+                        x: 9.383332,
+                        y: 48.679252,
+                        r: 5
+                    }, {
+                        x: 2.343400,
+                        y: 48.861034,
+                        r: 10
+                    }, {
+                        x: 9.377473,
+                        y: 48.679285,
+                        r: 5
+                    }, {
+                        x: 106.314619,
+                        y: 34.401537,
+                        r: 5
+                    }, {
+                        x: 126.995916,
+                        y: 37.540763,
+                        r: 5
+                    }, {
+                        x: 4.524757,
+                        y: 51.915374,
+                        r: 5
+                    }, {
+                        x: 127.028998,
+                        y: 37.567704,
+                        r: 5
+                    }, {
+                        x: 34.787270,
+                        y: 32.089305,
+                        r: 5,
+                    }, {
+                        x: 8.768028,
+                        y: 46.619857,
+                        r: 5,
+                    }, {
+                            x: 126.995916,
+                            y: 37.540763,
+                            r: 5,
+                        },{
+                            x: 32.078754,
+                            y: 34.817671,
+                            r:5,
+                        },{
+                            x: 6.266803,
+                            y: 45.749453,
+                            r:5,
+                        },{
+                            x: 12.54491,
+                            y:55.674465,
+                            r:5,
+                        }
+                    ],
+                    backgroundColor: 'blue'
+                }]
+            },
+            options: {
+                scales: {
+                    xAxes: [{
+                        type: 'linear',
+                        position: 'bottom',
+                        scaleLabel: {
+                            display: false,
+                            labelString: 'Latitude'
+                        },
+                        gridLines: {
+                            display: false,
+                            color: 'rgba(0, 0, 0, 0.1)',
+                            zeroLineColor: 'rgba(0, 0, 0, 0.25)'
+                        }
+                    }],
+                    yAxes: [{
+                        type: 'linear',
+                        scaleLabel: {
+                            display: false,
+                            labelString: 'Longitude'
+                        },
+                        gridLines: {
+                            display: false,
+                            color: 'rgba(0, 0, 0, 0.1)',
+                            zeroLineColor: 'rgba(0, 0, 0, 0.25)'
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
